@@ -3,16 +3,9 @@
   "version": "0.1.9",
   "type": "module",
   "description": "Lint commit messages with conventional commit messages",
+  "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Keisuke Yamashita",
   "files": [
     "prepare.js"
-  ],
-  "cpu": [
-    "x64",
-    "arm64"
-  ],
-  "os": [
-    "darwin",
-    "linux"
   ],
   "bin": {
     "commitlint": "./commitlint"
@@ -30,6 +23,16 @@
     "linter",
     "conventional-commit"
   ],
-  "author": "Davlatjon Shavkatov <opensource@dalisoft.uz>, Keisuke Yamashita",
+  "dependencies": {
+    "binary2npm": "^0.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalisoft/commitlint-rs-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dalisoft/commitlint-rs-npm/issues"
+  },
+  "homepage": "https://github.com/dalisoft/commitlint-rs-npm#readme",
   "license": "Apache-2.0"
 }
