@@ -28,6 +28,13 @@ bun add commitlint-rs-npm
 
 See [Documentations](#documentations), requires [Environment variables](#environment-variables)
 
+## Similar projects
+
+- [commitlint](https://commitlint.js.org)
+- [commitlint-rs](https://github.com/KeisukeYamashita/commitlint-rs)
+- [commitlint-go](https://github.com/conventionalcommit/commitlint)
+- [commitlint-sh](https://github.com/dalisoft/commitlint-sh)
+
 ## License
 
 Apache-2.0
