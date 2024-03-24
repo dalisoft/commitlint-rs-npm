@@ -13,9 +13,9 @@ Look at [official documentation](https://keisukeyamashita.github.io/commitlint-r
 ```sh
 npm install -g commitlint-rs-npm
 # or
-yarn install commitlint-rs-npm
+yarn install -g commitlint-rs-npm
 # or
-bun add commitlint-rs-npm
+bun add -g commitlint-rs-npm
 ```
 
 ## Environment variables
