@@ -35,6 +35,16 @@ See [Documentations](#documentations), requires [Environment variables](#environ
 - [commitlint-go](https://github.com/conventionalcommit/commitlint)
 - [commitlint-sh](https://github.com/dalisoft/commitlint-sh)
 
+## Local Development
+
+### Git config
+
+After cloning, run this command within project folder
+
+```sh
+git config --local include.path ../.gitconfig
+```
+
 ## License
 
 Apache-2.0
