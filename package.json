@@ -24,7 +24,7 @@
     "conventional-commit"
   ],
   "dependencies": {
-    "binary2npm": "^0.0.5"
+    "binary2npm": "^0.0.7"
   },
   "repository": {
     "type": "git",
