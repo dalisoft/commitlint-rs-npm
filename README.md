@@ -11,11 +11,11 @@ Look at [official documentation](https://keisukeyamashita.github.io/commitlint-r
 ## Installation
 
 ```sh
-npm install -g commitlint-rs-npm
+npm install dalisoft/commitlint-rs-npm -D
 # or
-yarn install -g commitlint-rs-npm
+yarn install dalisoft/commitlint-rs-npm -D
 # or
-bun add -g commitlint-rs-npm
+bun add dalisoft/commitlint-rs-npm -D
 ```
 
 ## Environment variables
