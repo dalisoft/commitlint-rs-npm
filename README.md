@@ -8,6 +8,16 @@ Lint commit messages with conventional commit messages
 
 Look at [official documentation](https://keisukeyamashita.github.io/commitlint-rs)
 
+## Motivation
+
+> This package is specifically designed for direct Command-Line Interface (CLI) interaction or as an extension for Visual Studio Code.
+
+### The functionality for npx or bunx is not included and is not anticipated to be incorporated in the future
+
+## How this is fast?
+
+This project leverages the [binary2npm](https://github.com/dalisoft/binary2npm) utility to streamline the acquisition of platform-specific binaries. The binaries provided by the author are highly optimized, surpassing the performance of the traditional **Node.js** `bin.js` approach. By invoking the binaries directly, we circumvent unnecessary overhead, resulting in significantly reduced startup times and enhanced efficiency.
+
 ## Installation
 
 ```sh
