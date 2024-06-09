@@ -14,7 +14,7 @@
     "node": ">=18.19.1"
   },
   "scripts": {
-    "prepare": "node ./prepare.js"
+    "postinstall": "node ./prepare.js"
   },
   "keywords": [
     "lint",
