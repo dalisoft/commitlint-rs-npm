@@ -1,4 +1,6 @@
-import { prepare } from "binary2npm";
+import { maps, prepare } from "binary2npm";
+
+maps.os.linux = 'linux-gnu'
 
 await prepare({
   remote: "github",
